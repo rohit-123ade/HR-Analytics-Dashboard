@@ -18,8 +18,7 @@ The objective is to transform raw employee data into meaningful insights that ca
 * Develop HR KPIs and calculated measures using DAX
 * Present insights through interactive visualizations
 
-## 🛠️ Tools & Technologies
-
+## 🛠️ Tools & Technologie
 * **SQL** – Data querying and analysis
 * **Microsoft Power BI** – Dashboard development and data visualization
 * **DAX** – Calculated measures and KPIs
