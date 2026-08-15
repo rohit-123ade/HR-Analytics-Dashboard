@@ -1,28 +1,30 @@
-# HR Analytics Dashboard
+# 📊 HR Analytics Dashboard
 
-An interactive **HR Analytics Dashboard** developed using **SQL and Power BI** to analyze employee data and generate meaningful insights related to workforce demographics, employee performance, salary, and other HR metrics.
+An interactive **HR Analytics Dashboard** developed using **SQL and Microsoft Power BI** to analyze employee data and generate meaningful insights into workforce demographics, employee performance, salary trends, departments, and other key HR metrics.
 
 ## 📌 Project Overview
 
-This project focuses on analyzing HR data using SQL for data analysis and Power BI for interactive data visualization.
+This project focuses on analyzing HR data using **SQL for data querying and analysis** and **Power BI for interactive data visualization**.
 
-The objective is to transform raw employee data into meaningful insights that can help understand workforce patterns and support data-driven HR decisions.
+The objective is to transform raw employee data into meaningful insights that can help understand workforce patterns and support **data-driven HR decision-making**.
 
 ## 🎯 Objectives
 
 * Analyze employee and workforce data
 * Identify important HR trends and patterns
 * Perform data analysis using SQL
-* Create an interactive dashboard using Power BI
-* Present key HR metrics through visualizations
-* Generate meaningful insights from employee data
+* Transform and prepare data for analysis
+* Create an interactive Power BI dashboard
+* Develop HR KPIs and calculated measures using DAX
+* Present insights through interactive visualizations
 
 ## 🛠️ Tools & Technologies
 
 * **SQL** – Data querying and analysis
-* **Power BI** – Interactive dashboard and data visualization
+* **Microsoft Power BI** – Dashboard development and data visualization
 * **DAX** – Calculated measures and KPIs
-* **Power Query** – Data transformation and preparation
+* **Power Query** – Data cleaning and transformation
+* **CSV** – Dataset storage and data source
 
 ## 📂 Project Structure
 
@@ -46,94 +48,117 @@ HR-Analytics-Dashboard/
 
 ## 📊 Dashboard
 
-The Power BI dashboard provides an interactive view of HR-related data through different charts, KPIs, and visualizations.
+The Power BI dashboard provides an interactive view of HR data using **KPIs, charts, graphs, filters, and slicers**.
 
-### Key Areas Analyzed
+### 🔍 Key Areas Analyzed
 
 * Employee demographics
-* Department-wise analysis
+* Department-wise employee distribution
 * Gender distribution
 * Employee status
-* Salary-related analysis
+* Salary analysis
 * Workforce trends
 * Employee performance
-* Other HR-related metrics available in the dataset
+* Department-level analysis
+* Other HR metrics available in the dataset
 
 ## 🗄️ SQL Analysis
 
-SQL was used to analyze the dataset and extract useful information using queries involving:
+SQL was used to query and analyze the HR dataset and extract meaningful information.
 
-* SELECT statements
-* Filtering with WHERE
-* GROUP BY and HAVING
+The analysis includes:
+
+* `SELECT` statements
+* `WHERE` filtering
+* `GROUP BY` and `HAVING`
 * Aggregate functions
-* JOIN operations
+* `JOIN` operations
 * Subqueries
-* CASE statements
-* Window functions
+* `CASE` statements
 * Sorting and ranking
-* Data-based analysis
+* Window functions
+* HR-based analytical queries
 
 The SQL queries used for the project are available in the **SQL** folder.
 
-## 📈 Power BI
+## 📈 Power BI Dashboard
 
 Power BI was used to:
 
-* Import and transform the dataset
-* Create calculated measures
-* Develop KPIs
-* Build interactive charts and visuals
-* Create filters and slicers
+* Import and transform HR data
+* Clean data using Power Query
+* Create calculated columns and measures
+* Develop KPIs using DAX
+* Build interactive charts and visualizations
+* Add filters and slicers
 * Design the final HR Analytics Dashboard
 
-The Power BI file is available in the **PowerBI** folder.
+The Power BI dashboard file is available in the **PowerBI** folder.
 
 ## 💡 Key Insights
 
-The dashboard helps identify patterns such as:
+The dashboard helps identify:
 
-* Distribution of employees across departments
-* Workforce composition and demographics
-* Salary and employee-related trends
+* Employee distribution across departments
+* Workforce demographic patterns
+* Gender composition
+* Salary-related trends
 * Department-level differences
 * Employee performance patterns
-* Other important HR trends derived from the dataset
+* Workforce trends and HR metrics
+* Other business insights derived from the dataset
 
 ## 🖼️ Dashboard Preview
 
-Screenshots of the completed dashboard are available in the **Screenshots** folder.
+A screenshot of the completed Power BI dashboard is available in the **Screenshots** folder.
 
 ## 📁 Repository Contents
 
-| Folder        | Description                           |
-| ------------- | ------------------------------------- |
-| `Dataset`     | Original HR dataset used for analysis |
-| `SQL`         | SQL queries used for data analysis    |
-| `PowerBI`     | Power BI dashboard file               |
-| `Screenshots` | Dashboard screenshots                 |
+| Folder        | Description                        |
+| ------------- | ---------------------------------- |
+| `Dataset`     | HR dataset used for analysis       |
+| `SQL`         | SQL queries used for data analysis |
+| `PowerBI`     | Power BI dashboard file            |
+| `Screenshots` | Dashboard screenshots              |
 
 ## 🚀 Project Workflow
 
 ```text
 Raw HR Dataset
-      ↓
+       ↓
+Data Cleaning & Preparation
+       ↓
 SQL Data Analysis
-      ↓
-Data Preparation & Transformation
-      ↓
-Power BI
-      ↓
-Interactive HR Analytics Dashboard
-      ↓
-Insights & Visualization
+       ↓
+Power Query Transformation
+       ↓
+DAX Measures & KPIs
+       ↓
+Power BI Dashboard
+       ↓
+Interactive Visualization
+       ↓
+HR Insights & Decision Making
 ```
 
-## 👩‍💻 Author
+## 🎓 Skills Demonstrated
 
-**Isha**
+* SQL
+* Microsoft Power BI
+* DAX
+* Power Query
+* Data Cleaning
+* Data Analysis
+* Data Visualization
+* Business Intelligence
+* Dashboard Development
+* Analytical Thinking
 
-This project was created as part of my Data Analytics learning and portfolio development.
+## 👨‍💻 Author
+
+**Rohit Ade**
+
+This project was created as part of my **Data Analytics and Data Science portfolio development**.
 
 ---
 
